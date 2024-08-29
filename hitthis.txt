@@ -1,0 +1,4 @@
+me?fields=id,name,adaccounts{account_id,ads{campaign_id,adset,name,leads}}
+
+
+me?fields=id,name,adaccounts{account_id,ads{campaign_id,leads}}
