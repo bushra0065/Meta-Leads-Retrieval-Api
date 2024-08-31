@@ -12,7 +12,7 @@ if ($result && mysqli_num_rows($result) > 0) {
     $shortLivedAccessToken = $data['access_token'];
 
     // Your API request URL to exchange short-lived token for long-lived token
-    $appId = '301371725638221';
+    $appId = 'your app id';
     $appSecret = 'yourappsecretcode';
     $apiUrl = "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id=$appId&client_secret=$appSecret&fb_exchange_token=$shortLivedAccessToken";
 
